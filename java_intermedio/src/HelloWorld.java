@@ -6,6 +6,7 @@ public class HelloWorld {
 		System.out.println("Hellow World!");
 		System.out.println("Come mai non può far il commit?");
 		System.out.println("Ce l'ho fatta?");
+		System.out.println("Non ho capito bene.");
 	}
 
 }
