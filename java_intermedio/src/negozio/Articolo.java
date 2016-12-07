@@ -2,6 +2,7 @@ package negozio;
 
 public abstract class Articolo implements IArticolo, Cloneable {
 
+	/* for commit test comment*/
 	private String nome;
 	private String descrizione;
 	
