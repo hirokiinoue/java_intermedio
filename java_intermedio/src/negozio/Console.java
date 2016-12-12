@@ -3,8 +3,10 @@ package negozio;
 public class Console extends Articolo  {
 
 	private double prezzo;
-		
+
+	/* costruttore */
 	public Console(String nome, String descrizione, double prezzo) {
+		/* call Articolo */
 		super(nome, descrizione);
 		this.prezzo = prezzo;
 	}

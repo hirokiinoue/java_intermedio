@@ -5,8 +5,10 @@ public class Ram extends Articolo {
 	double prezzo;
 	String tipo;
 	int giga=0;
-		
+
+	/* costruttore */
 	public Ram(String nome, String descrizione, double prezzo, int giga,String tipo) {
+		/* call Articolo */
 		super(nome, descrizione);
 		this.prezzo = prezzo;
 		this.tipo = tipo;

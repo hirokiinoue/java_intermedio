@@ -4,9 +4,11 @@ public class Processore extends Articolo {
 
 	double prezzo;
 	int benchmark;
-	
+
+	/* costruttore */
 	public Processore(String nome, String descrizione, double prezzo,
 			int benchmark) {
+		/* call Articolo */
 		super(nome, descrizione);
 		this.prezzo = prezzo;
 		this.benchmark = benchmark;

@@ -1,7 +1,9 @@
 package negozio;
 
 public class PCBuilderGaming implements IPCBuilder {
+	
 	PC pc = null;
+	
 	@Override
 	public void base() {
 		pc = new PC
@@ -18,8 +20,7 @@ public class PCBuilderGaming implements IPCBuilder {
 	@Override
 	public void aggiunteGaming() {
 		pc.setSchedavideo(
-				new SchedaVideo("Nvid", "", 50, 20000)
-	);
+				new SchedaVideo("Nvid", "", 50, 20000));
 		
 	}
 

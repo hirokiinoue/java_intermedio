@@ -5,8 +5,10 @@ public abstract class Videogame extends Articolo {
 	private double prezzo;
 	private String piattaforma;
 
+	/* costruttore */
 	public Videogame(String nome, String descrizione, double prezzo,
 			String piattaforma) {
+		/* call Articolo */
 		super(nome, descrizione);
 		this.prezzo = prezzo;
 		this.piattaforma = piattaforma;
@@ -33,6 +35,7 @@ public abstract class Videogame extends Articolo {
 		
 	}
 
+	
 	public abstract boolean compatibile(Articolo piattaforma);
 	
 	

@@ -5,9 +5,10 @@ public class SchedaVideo extends Articolo {
 	double prezzo = 0;
 	int benchmark = 0;
 	
-	
+	/* costruttore */
 	public SchedaVideo(String nome, String descrizione, double prezzo,
 			int benchmark) {
+		/* call Articolo */
 		super(nome, descrizione);
 		this.prezzo = prezzo;
 		this.benchmark = benchmark;

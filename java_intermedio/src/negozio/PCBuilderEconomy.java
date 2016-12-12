@@ -3,6 +3,7 @@ package negozio;
 public class PCBuilderEconomy implements IPCBuilder {
 
 	PC pc = null;
+	
 	//Un esempio di builder molto astratto.
 	@Override
 	public void base() {
@@ -14,8 +15,6 @@ public class PCBuilderEconomy implements IPCBuilder {
 					new Hd("Hd usato", "",30,500),
 					0
 				);
-				
-	
 	}
 
 	@Override

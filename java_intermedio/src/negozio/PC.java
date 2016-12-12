@@ -8,14 +8,11 @@ public class PC extends Articolo {
 	Hd hd;
 	Hd hd2;
 	int ricarico;
-
 	
-	
-	
-	
-	
+	/* costruttore */
 	public PC(String nome, String descrizione, Processore processore, Ram ram,
 			Hd hd, int ricarico) {
+		/* call Articolo */
 		super(nome, descrizione);
 		this.processore = processore;
 		this.ram = ram;
@@ -123,6 +120,7 @@ public class PC extends Articolo {
 	@Override
 	public String scheda() {
 		// TODO Auto-generated method stub
+		/* call Articolo */
 		super.scheda();
 		String ris 	= 	"PC "+getNome()+"\n";
 		ris			+=	"Processore:" + processore.scheda() + "\n";

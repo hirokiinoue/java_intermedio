@@ -2,9 +2,10 @@ package negozio;
 
 public class VideogamePC extends Videogame {
 
-	
+	/* costruttore */
 	public VideogamePC(String nome, String descrizione, double prezzo)
 	{
+		/* call Videogame */
 		super(nome,descrizione,prezzo,"PC");
 	}
 

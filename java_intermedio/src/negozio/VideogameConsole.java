@@ -2,8 +2,10 @@ package negozio;
 
 public class VideogameConsole extends Videogame {
 
+	/* costruttore */
 	public VideogameConsole(String nome, String descrizione, double prezzo, String piattaforma)
 	{
+		/* call Videogame */
 		super(nome,descrizione,prezzo,piattaforma);
 	}
 
@@ -22,9 +24,6 @@ public class VideogameConsole extends Videogame {
 		return "VideogameConsole [getPiattaforma()=" + getPiattaforma()
 				+ ", getPrezzo()=" + getPrezzo() + ", getNome()=" + getNome()
 				+ ", getDescrizione()=" + getDescrizione() + "]";
-	}
-	
-	
-	
+	}	
 }
 

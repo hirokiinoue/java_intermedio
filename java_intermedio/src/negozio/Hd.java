@@ -6,18 +6,19 @@ public class Hd extends Articolo {
 	int capacita=0;
 	
 	
+	/* costruttore */
+	public Hd(String nome, String descrizione, double prezzo, int capacita) {
+		/* call Articolo */
+		super(nome, descrizione);
+		this.prezzo = prezzo;
+		this.capacita = capacita;
+	}
 	
 	@Override
 	public double getPrezzo() {
 		// TODO Auto-generated method stub
 		return prezzo;
 	}
-
-public Hd(String nome, String descrizione, double prezzo, int capacita) {
-	super(nome, descrizione);
-	this.prezzo = prezzo;
-	this.capacita = capacita;
-}
 
 	@Override
 	public String scheda() {

@@ -3,7 +3,8 @@ package negozio;
 public class PrototipiConsole {
 
 	Console[] console = new Console[3];
-	
+
+	/* costruttore */
 	public PrototipiConsole()
 	{
 		console[0] = new Console("NES", "Nintendo 8 bit", 200);
