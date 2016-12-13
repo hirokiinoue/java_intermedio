@@ -1,13 +1,24 @@
 package negozio;
 
+import java.io.InputStream;
 import java.util.*;
 
 public class CacheDoni {
 
-	String FEMMINILE = "FEMMINE";
-	String MASCHILE = "MASCHI";
-	String UNISEX = "UNISEX";
+	Properties prop = new Properties();
+	InputStream input = null;
 	
+	try {
+		input = new FileInputStream("config.properties");
+		
+		// load a properties file
+		prop.load(input);
+		
+		// get the property value and print in out
+		System.out.println();
+	} catch (IOException e) {
+		
+	}
 	HashMap<String,ArrayList<Articolo>> doni;
 
 	public CacheDoni(){

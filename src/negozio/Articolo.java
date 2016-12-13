@@ -54,5 +54,7 @@ public abstract class Articolo implements IArticolo, Cloneable {
 		return (Articolo) o;
 	}
 	
-	
+	public double getPrezzo(){
+		return 0;
+	}
 }
