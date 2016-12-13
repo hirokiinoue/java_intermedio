@@ -8,4 +8,7 @@ public interface IConsumo {
 			int scarico
 			
 			);
+	
+	public int calcoloImmesso(int sollevato, int scarico);
+	public int rapportoImmessoSollevato(int immesso, int sollevato);
 }

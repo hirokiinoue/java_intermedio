@@ -16,5 +16,8 @@ public class ConsumiAdv implements IConsumiAdv {
 		if(ms<=0) ms = 1;
 		return consumi.Sollevato(immesso*(mi<=0?1:mi), scarico*(ms<=0?1:ms)) + perdita;
 	}
+	
+	
+
 
 }
