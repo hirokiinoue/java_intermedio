@@ -2,7 +2,7 @@ package negozio;
 
 public class Ram extends Articolo {
 
-	double prezzo;
+	double prezzo ;
 	String tipo;
 	int giga=0;
 
@@ -27,4 +27,7 @@ public class Ram extends Articolo {
 		return tipo+" "+giga;
 	}
 
+	public String toXML(){
+		return "<ram>"+"\n\t<nome>"+getNome()+"</nome>"+"\n\t<giga>"+giga+"</giga>"+"\n</ram>";
+	}
 }
