@@ -122,7 +122,7 @@ public class PC extends Articolo {
 		// TODO Auto-generated method stub
 		/* call Articolo */
 		super.scheda();
-		String ris 	= 	"PC "+getNome()+"\n";
+		String ris 	= 	"PC:"+getNome()+"\n";
 		ris			+=	"Processore:" + processore.scheda() + "\n";
 		ris			+= 	"RAM:"+ram.scheda() + "\n";
 		ris			+= 	"Hd:"+hd.scheda() + "\n";

@@ -24,7 +24,7 @@ public class Ram extends Articolo {
 	@Override
 	public String scheda() {
 		// TODO Auto-generated method stub
-		return tipo+" "+giga;
+		return tipo+" "+giga+"giga" +" prezzo:"+getPrezzo();
 	}
 
 	public String toXML(){

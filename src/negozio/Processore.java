@@ -23,7 +23,7 @@ public class Processore extends Articolo {
 	@Override
 	public String scheda() {
 		// TODO Auto-generated method stub
-		return getNome()+" "+getDescrizione()+" "+benchmark;
+		return getNome()+" "+getDescrizione()+" benchmark:"+benchmark+" prezzo:"+getPrezzo();
 	}
 
 }

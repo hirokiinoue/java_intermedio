@@ -11,7 +11,7 @@ public class DemoAntXML {
 		//Questo sarà il vostro lavoro principale, per oggi e in seguito
 		//XML - un ottimo sistema per memorizzare ma soprattutto assorbire i dati
 		//E la configurazione
-		Document dati = AntXML.DocumentDaFile("/home/ferdi/dati.xml");
+		Document dati = AntXML.DocumentDaFile("C:\\Users\\corso1\\Documents\\JAVAINTERMEDIO\\dati.xml");
 		NodeList l = dati.getElementsByTagName("calories");
 		int somma = 0;
 		for(int i=0;i<l.getLength();i++)

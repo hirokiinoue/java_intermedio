@@ -23,7 +23,7 @@ public class Hd extends Articolo {
 	@Override
 	public String scheda() {
 		// TODO Auto-generated method stub
-		return getNome()+" "+capacita;
+		return getNome()+" capacita:"+capacita +" prezzo:"+getPrezzo();
 	}
 
 }
